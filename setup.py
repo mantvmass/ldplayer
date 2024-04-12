@@ -9,6 +9,6 @@ setup(
     maintainer_email="kliop2317@gmail.com",
     url="https://github.com/mantvmass/ldplayer",
     packages=["ldplayer"],
-    long_description=open("README.md").read(),
+    # long_description=open("README.md").read(),
     install_requires=[]
 )
