@@ -1,6 +1,6 @@
 LDPlayer
 ==========
-This is package for LDPlayer emulator control software. (unofficial)
+This is package for ldplayer emulator control software. (unofficial)
 
 #### Table of contents
 
@@ -24,4 +24,4 @@ Environments
 
 License
 ==========
-NaN
+This package is open-sourced software licensed under the [MIT license](https://github.com/mantvmass/ldplayer/blob/main/LICENSE).
