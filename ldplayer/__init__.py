@@ -1,16 +1,12 @@
 import subprocess
-import configparser
 
 class LDPlayer:
     
     
     __ldconsole: str
 
-    def __init__(self, config_file):
-        self.config = configparser.ConfigParser()
-        self.config.read(config_file, encoding='ISO-8859-1')
-        self.__ldconsole = self.config.get('LDPlayer', 'ldconsole')
-        
+    def __init__(self, ldconsole):
+        self.__ldconsole = ldconsole
         
     def instances(self) -> list:
         process = subprocess.Popen([self.__ldconsole, "list"], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
