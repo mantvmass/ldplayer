@@ -1,11 +1,13 @@
-LDPlayer
-==========
+LDPlayer Tools
+==============
 This is package for ldplayer emulator control software. (unofficial)
 
 #### Table of contents
 
 * [Install](#install)
+* [Other libraries](#other-libraries)
 * [Environments](#environments)
+* [Example](#example)
 * [License](#license)
 
 #### Contribute to ldplayer
@@ -29,6 +31,30 @@ Environments
 ============
 * __ldplayer 9__
 * __python 3.11__
+* __pure-python-adb__
+
+Example
+=======
+
+manage instance
+```python
+from ldplayer import LDPlayer
+
+ld = LDPlayer("path/to/ldconsole.exe")
+print(ld.instances())
+```
+
+tap or swipe event
+```python
+from ppadb.client import Client as AdbClient
+from ldplayer import Controller
+
+client = AdbClient(host="127.0.0.1", port=5037)
+device = client.device("emulator-5554") # or your device name
+
+ldc = Controller(device)
+ldc.tap(x=10, y=10)
+```
 
 License
 ==========
