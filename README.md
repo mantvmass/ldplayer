@@ -18,9 +18,16 @@ Install
 pip install git+https://github.com/mantvmass/ldplayer.git
 ```
 
+Other libraries
+===============
+* __uiautomator2__ [repo](https://github.com/openatx/uiautomator2)
+* __pure-python-adb__ [repo](https://github.com/Swind/pure-python-adb)
+* __weditor__ [repo](https://github.com/alibaba/web-editor)
+
 Environments
 ============
-* __LDPlayer__ ( 9 )
+* __ldplayer 9__
+* __python 3.11__
 
 License
 ==========
