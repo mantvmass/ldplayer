@@ -20,6 +20,7 @@ pip install git+https://github.com/mantvmass/ldplayer.git
 
 Other libraries
 ===============
+other libraries that may be needed for your automation
 * __uiautomator2__ [repo](https://github.com/openatx/uiautomator2)
 * __pure-python-adb__ [repo](https://github.com/Swind/pure-python-adb)
 * __weditor__ [repo](https://github.com/alibaba/web-editor)
