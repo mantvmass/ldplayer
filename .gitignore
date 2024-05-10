@@ -3,3 +3,4 @@ __pycache__
 ldplayer.egg-info
 ldplayer_tools.egg-info
 dist
+help.txt

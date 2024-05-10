@@ -17,7 +17,7 @@ Please fork and create a pull request 🙂
 Install
 ==========
 ```shell
-pip install git+https://github.com/mantvmass/ldplayer.git
+pip install ldplayer-tools
 ```
 
 Other libraries
