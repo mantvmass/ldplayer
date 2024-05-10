@@ -1,16 +1,20 @@
 from setuptools import setup, find_packages
 
+VERSION = "0.0.1"
+DESCRIPTION = "This is package for ldplayer emulator control software. (unofficial)"
+
 setup(
-    name="ldplayer",
+    name="ldplayer-tools",
     packages=find_packages(),
-    version="0.0.1",
-    description="This is package for ldplayer emulator control software. (unofficial)",
-    author="mantvmass",
-    maintainer="Phumin Maliwan",
+    version=VERSION,
+    description=DESCRIPTION,
+    # long_description_content_type="text/markdown",
+    # long_description=open("README.md").read(),
+    author="mantvmass (Phumin Maliwan)",
+    author_email="kliop2317@gmail.com",
+    maintainer="mantvmass (Phumin Maliwan)",
     maintainer_email="kliop2317@gmail.com",
     url="https://github.com/mantvmass/ldplayer",
-    # long_description=open("README.md").read(),
-    install_requires=[
-        "pure-python-adb",
-    ]
+    install_requires=["pure-python-adb"],
+    keywords=["python", "ldplayer", "ldplayer-tools", "python-ldplayer"]
 )
