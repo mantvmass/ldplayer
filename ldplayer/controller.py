@@ -14,7 +14,7 @@ class Controller:
         self.__device = device
     
     
-    def tab(self, x: int, y: int):
+    def tap(self, x: int, y: int):
         """
         Simulates a tap action at the specified coordinates.
 
@@ -22,7 +22,7 @@ class Controller:
         :param y: The y-coordinate of the tap action.
         :return: None
         """
-        return self.__device.shell("input tab {} {}".format(x, y))
+        return self.__device.shell("input tap {} {}".format(x, y))
 
     
     def swipe(self, sx: int, sy: int, ex: int, ey: int, duration: int):
