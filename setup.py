@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = "0.0.1"
+VERSION = "0.0.2"
 DESCRIPTION = "This is package for ldplayer emulator control software. (unofficial)"
 
 setup(
@@ -8,8 +8,8 @@ setup(
     packages=find_packages(),
     version=VERSION,
     description=DESCRIPTION,
-    # long_description_content_type="text/markdown",
-    # long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
+    long_description=open("README.md").read(),
     author="mantvmass (Phumin Maliwan)",
     author_email="kliop2317@gmail.com",
     maintainer="mantvmass (Phumin Maliwan)",

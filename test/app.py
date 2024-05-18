@@ -3,10 +3,9 @@ sys.path.append('../')
 
 from ldplayer import LDPlayer
 
-
 ld = LDPlayer("C:\\LDPlayer\\LDPlayer9\\ldconsole.exe")
 
-# print(ld.instances())
+print(ld.instances())
 
 # print(ld.create("testet"))
 
