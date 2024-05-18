@@ -24,3 +24,4 @@ rich==13.7.1
 twine==5.0.0
 urllib3==2.2.1
 zipp==3.18.1
+wheel==0.43.0
